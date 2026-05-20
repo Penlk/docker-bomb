@@ -1,0 +1,6 @@
+services:
+  bomb:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    privileged: true
